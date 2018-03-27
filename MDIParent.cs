@@ -140,5 +140,10 @@ namespace MANUUFinance
             frmDemonstration objFrmDemonstration = new frmDemonstration();
             objFrmDemonstration.ShowDialog();
         }
+
+        private void againToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
