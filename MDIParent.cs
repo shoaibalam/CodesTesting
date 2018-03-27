@@ -143,7 +143,7 @@ namespace MANUUFinance
 
         private void againToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
