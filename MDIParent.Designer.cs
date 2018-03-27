@@ -265,6 +265,7 @@
             this.againToolStripMenuItem.Name = "againToolStripMenuItem";
             this.againToolStripMenuItem.Size = new System.Drawing.Size(50, 22);
             this.againToolStripMenuItem.Text = "Again";
+            this.againToolStripMenuItem.Click += new System.EventHandler(this.againToolStripMenuItem_Click);
             // 
             // MDIParent
             // 
