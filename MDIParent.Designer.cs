@@ -56,6 +56,7 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.administrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.againToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -93,7 +94,8 @@
             this.aboutToolStripMenuItem,
             this.helpToolStripMenuItem,
             this.exitToolStripMenuItem,
-            this.administrationToolStripMenuItem});
+            this.administrationToolStripMenuItem,
+            this.againToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
@@ -258,6 +260,12 @@
             this.administrationToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.administrationToolStripMenuItem.Text = "Administration";
             // 
+            // againToolStripMenuItem
+            // 
+            this.againToolStripMenuItem.Name = "againToolStripMenuItem";
+            this.againToolStripMenuItem.Size = new System.Drawing.Size(50, 22);
+            this.againToolStripMenuItem.Text = "Again";
+            // 
             // MDIParent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -306,6 +314,7 @@
         private System.Windows.Forms.ToolStripMenuItem demonstrationToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem administrationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem againToolStripMenuItem;
     }
 }
 
