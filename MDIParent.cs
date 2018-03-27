@@ -102,7 +102,7 @@ namespace MANUUFinance
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+           // this.Close();
         }
 
         private void bankMasterToolStripMenuItem_Click(object sender, EventArgs e)
